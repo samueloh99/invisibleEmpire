@@ -1,4 +1,4 @@
-import { Struct, u256 } from "@o1labs/snarkjs";
+import { Struct, u256 } from "snarkyjs";
 
 class Territory extends Struct({
   operator: u256,

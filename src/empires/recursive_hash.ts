@@ -1,4 +1,4 @@
-import { PoseidonHash } from "@o1labs/snarkjs";
+import { PoseidonHash } from "snarkyjs";
 
 class RecursiveHash {
   static roll_dice(attacking_country: Territory, attacked_country: Territory): boolean {
