@@ -1,4 +1,4 @@
-import { SmartContract, state, u256, u32, PrivateKey, PublicKey } from "snarkyjs";
+import { SmartContract, State, state, u256, u32, PrivateKey, PublicKey } from "snarkyjs";
 import { Territory } from "./territory";
 import { RecursiveHash } from "./recursive_hash";
 
@@ -11,6 +11,7 @@ class CoreContract extends SmartContract {
   @state(u256) country_address = State<u256>();
   @state(u32) game_id = State<u32>();
   @state(u32) registration_countdown = State<u32>();
+  @state(Bool) gameDone = State<Bool>();
 
   @method init() {
     // Initialize the game state here
