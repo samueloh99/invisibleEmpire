@@ -31,7 +31,7 @@ const Verification = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 justify-center items-center align-center h-[80vh]">
+    <div className="flex flex-col gap-5 justify-center items-center m-auto align-center h-full">
       <div className="flex flex-col h-2/5 justify-between items-center">
         <h1 className="text-[40px] font-bold">Welcome</h1>
         <h1 className="text-[20px]">First connect your wallet</h1>

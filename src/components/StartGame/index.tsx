@@ -33,7 +33,7 @@ const StartGame = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 justify-center items-center align-center h-[80vh]">
+    <div className="flex flex-col gap-5 justify-center items-center align-center h-full">
       <h1 className="font-bold uppercase text-[18px]">
         Players Addresses
       </h1>
